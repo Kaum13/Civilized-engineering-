@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civilized World Engineering Consultancy</title>
+    <style>
+        :root { --primary-green: #2e7d32; --dark-blue: #1a237e; --light-bg: #f4f7f4; --white: #ffffff; }
+        * { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; color: #333; scroll-behavior: smooth; line-height: 1.6; }
+        header { background: var(--white); padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+        .logo { font-weight: bold; font-size: 1.1rem; color: var(--primary-green); text-transform: uppercase; }
+        nav a { margin-left: 20px; text-decoration: none; color: #444; font-weight: 600; font-size: 0.9rem; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1503387762-592dea58ef21?auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-position: center; height: 60vh; color: white; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 20px; }
+        section { padding: 60px 10%; border-bottom: 1px solid #eee; }
+        .team-card { background: var(--light-bg); padding: 25px; border-radius: 10px; border-left: 5px solid var(--primary-green); margin-top: 20px; }
+        .contact { background: var(--primary-green); color: white; text-align: center; }
+        .phone-link { font-size: 2.2rem; color: white; text-decoration: none; font-weight: bold; display: block; margin: 15px 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Civilized World Engineering</div>
+        <nav><a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact</a></nav>
+    </header>
+    <section class="hero">
+        <h1>Design Your Dream Home</h1>
+        <p>Architectural and structural services from planning to completion.</p>
+        <a href="#contact" style="background:white; color:var(--primary-green); padding:10px 20px; text-decoration:none; border-radius:5px; font-weight:bold;">Free Consultation</a>
+    </section>
+    <section id="about">
+        <h2 style="text-align:center;">About the Firm</h2>
+        <div class="team-card">
+            <div style="font-weight:bold; color:var(--dark-blue);">LEAD ENGINEER</div>
+            <h3 style="margin:5px 0; color:var(--primary-green);">Souvik Sengupta</h3>
+            <p>Specializing in structural blueprints and project management.</p>
+        </div>
+    </section>
+    <section id="services">
+        <h2 style="text-align:center;">Our Services</h2>
+        <p>• Initial Planning & Structural Blueprints<br>• Modern Architectural Design<br>• Professional Project Completion</p>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <a href="tel:+919679854401" class="phone-link">+91 9679854401</a>
+        <p>Location: Alipurduar, West Bengal, India</p>
+    </section>
+    <footer style="background:#111; color:#777; text-align:center; padding:15px;">&copy; 2026 Civilized World Engineering Consultancy.</footer>
+</body>
+</html>
